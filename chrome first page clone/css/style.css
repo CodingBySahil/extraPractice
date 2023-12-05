@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    /* border: 1px solid red; */
+}
+
+.container{
+    /* margin: 0 auto; */
+    /* display: flex; */
+    text-align: center;
+}
+
+.blue{
+    color: blue;
+}
+
+.red{
+    color: red;
+}
+
+.orange{
+    color: orange;
+}
+
+.green{
+    color: green;
+}
+
+.main-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+span {
+    font-size: 5rem;
+}
+
+/* .search-bar {
+    width: 50%;
+} */
+
+.search {
+    width: 561px;
+    padding: 1px 87px 1px 52px;
+    height: 30px;
+    border-radius: 20px;
+    opacity: 0.7;
+}
+

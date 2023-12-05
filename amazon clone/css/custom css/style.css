@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e3e6e6;
+}
+
+/* navbar css started from here */
+.border {
+    border: 1px solid transparent !important;
+}
+
+.border:hover{
+    border: 1px solid white !important;
+}
+
+.navbar {
+    background-color: #0f1111;
+    height: 100px;
+    width: 100%;
+}
+
+/* top navbar css */
+.nav-top{
+    background-color: #0f1111;
+    height: 60px;  
+    width: 100%;  
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+/* top left navbar css */
+
+.amz-logo{
+    display: block;
+    height: 70px; 
+    width: 120;
+}
+
+.top-left-nav-para-1 {
+    font-size: 0.85rem;
+    color: #cccccc;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.top-left-nav-para-2 {
+    font-size: 1rem;
+    display: inline;
+    font-weight: bold;
+}
+
+/* Navbar search box */
+.nav-search-bar {
+    width: 915px;
+    height: 40px;
+    display: flex;
+    justify-content:flex-start;
+}
+
+.select-button{
+    background-color: #800808;
+    color: #0f1111;
+}
+
+#search-select-button {
+   width: 55px;
+   height: 100%;
+   background-color: #e6e6e6;
+   border-top-left-radius: 3px;
+   border-bottom-left-radius: 3px;
+   border: none;
+}
+
+.search-box {
+    width: 800px;
+    height: 40px;
+    border: none;
+}
+
+.search-button {
+    background-color: rgb(254,189,105);
+    color: rgb(92,79,62);
+    font-weight: bolder;
+    width: 45px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-button i {
+    font-size: 1.5rem;
+}
+.box-5 i {
+    font-size: 2.3rem;
+}
+
+
+/* bottom navbar css */
+.nav-bot{
+    background-color: #232f3E;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    /* align-items: center; */
+}
+
+.nav-bot p {
+    padding: 0;
+    margin: 0;
+    padding-left: 0.9rem;
+    display: inline;
+    align-self: center;
+}
+
+/* Hero Section */
+
+.hero-section {
+    padding: 0px 15px 0px 15px;
+    width: 100%;
+}
+
+.hero-section-1 {
+    background-image: url('../../assets/Images/hero-img-2.jpg');
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+}
+
+/* Display section */
+
+.display-section {
+    position: absolute;
+    top: 70%;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-evenly;
+}
+
+.dis-frame {
+    width: 350px;
+    height: 430px;
+    padding: 20px 20px 20px;
+    background-color: #ffffff;
+}
+
+ .display {
+    margin-bottom: 1rem;
+} 
+
+.dis-frame h2 {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #0f1111;
+    margin: 0 0 10px;
+}
+
+.dis-frame img {
+    height: 306px;
+    width: 304px;
+}
+
+.dis-frame a, a:link, a:visited {
+    text-decoration: none;
+    color: #007185;
+    display: inline-block;
+    margin-top: 1.3rem;
+}
+
+.dis-frame a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: #C7511F;
+}
