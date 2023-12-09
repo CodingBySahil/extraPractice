@@ -1,0 +1,70 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #345263;
+    width: 100%;
+    height: 3em;
+    position: fixed;
+}
+button{
+    padding: 6px;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+}
+button:hover{
+    cursor: pointer;
+}
+#dark-theme{
+    margin-right: 4em;
+}
+/* there I will set the background image for parallax effect */
+.parallax-first,
+.parallax-second,
+.parallax-third {
+  background-image: url("../images/background-image.jpg");
+  background-size: 100% 100%;
+  width: 100%;
+  height: 600px;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.parallax-first h2, .parallax-third h2,.parallax-second h2 {
+  text-align: center;
+  width: 280px;
+  height: 26px;
+  padding: 10px;
+  border-radius: 25px;
+  background-color: black;
+  color: white;
+  font-family: auto;
+}
+.para-of-first-parallax,
+.para-of-second-parallax,
+.para-of-third-parallax {
+  font-size: 17px;
+  background-color: black;
+  color: white;
+  padding: 50px;
+}
+
+footer{
+    width: 100%;
+    display: flex;
+    height: 3em;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    background-color: rgba(255, 0, 0, 0.774);
+    color: rgb(246, 246, 115);
+}
+
+
