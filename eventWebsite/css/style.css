@@ -1,0 +1,94 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* border: 1px solid red; */
+}
+.container {
+  /* width: 90%; */
+  height: 100vh;
+  /* margin: 0 auto; */
+  background-image: url("../assets/images/bg.png");
+  background-size: cover;
+}
+/* the left section of the page is started here  */
+.left-section {
+  width: 50%;
+  float: left;
+  margin-right: 10px;
+}
+
+.left-content {
+  color: #fff;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 40px;
+  transition: 0.5s;
+}
+
+.left-content:hover {
+  background-color: #e91e63;
+}
+
+.left-title {
+  font-size: 50px;
+  text-transform: uppercase;
+}
+
+.left-side-para {
+  margin: 10px 0;
+}
+/* The left side of the page is ended here */
+
+/* The right side of the page is started here */
+.right-side-events {
+  width: 47%;
+  float: right;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+}
+ul {
+}
+.right-side-events ul li {
+  list-style-type: none;
+  margin: 1.4em 0;
+}
+.time {
+  float: left;
+  width: 30%;
+  height: 175px;
+  padding: 40px 20px 20px 20px;
+  background-color: #262626;
+  text-align: center;
+  color: white;
+  transition: 0.5s;
+}
+.details {
+  padding: 20px;
+  background: #fff;
+  box-sizing: border-box;
+  width: 70%;
+  height: 175px;
+  float: left;
+}
+h3 {
+  font-size: 18px;
+  padding: 6px 0px;
+}
+.details p {
+  font-size: 13px;
+  padding-bottom: 10px;
+}
+.details a {
+  font-size: 13px;
+  padding: 5px;
+  text-decoration: none;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.time:hover,
+a:hover {
+  background-color: #e91e63;
+}
+
+/* The right side of the page is ended here */
