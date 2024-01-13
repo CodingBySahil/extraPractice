@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TickToe game</title>
+  </head>
+  <!-- Costom css -->
+  <link rel="stylesheet" href="style.css" />
+  <body>
+    <div class="container">
+      <header>
+        <h1>Tick toe Game</h1>
+      </header>
+      <h3 class="welcome-para">
+        Welcome to my site. Here you can play and enjoy <b>TickToe</b> game.
+      </h3>
+      <div class="toss-section">
+        <h3>Select head or tail to play the toss</h3>
+        <br>
+        <button class="head chosenHead" onclick="tossHead()">Head</button>
+        <button class="tail chosenTail" onclick="tossTail()">Tail</button>
+      </div>
+      <d class="container-for-game">
+        <!-- <button onclick= "tryone()">random</button><br> -->
+          <button class="boxes box1" onclick="humanTurnBox1()">.</button>
+          <button class="boxes box2" onclick="humanTurnBox2()">.</button>
+          <button class="boxes box3" onclick="humanTurnBox3()">.</button>
+          <button class="boxes box4" onclick="humanTurnBox4()">.</button>
+          <button class="boxes box5" onclick="humanTurnBox5()">.</button>
+          <button class="boxes box6" onclick="humanTurnBox6()">.</button>
+          <button class="boxes box7" onclick="humanTurnBox7()">.</button>
+          <button class="boxes box8" onclick="humanTurnBox8()">.</button>
+          <button class="boxes box9" onclick="humanTurnBox9()">.</button>
+      </div>
+    </div>
+    <!-- Costom javascript -->
+    <script src="app.js"></script>
+  </body>
+</html>
