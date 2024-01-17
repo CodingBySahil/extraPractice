@@ -28,7 +28,8 @@ header {
     margin-top: 3em;
     font-size: 1.5em;
 }
-.toss-section{
+
+.toss-section {
     text-align: center;
     padding: 1em;
     margin: 1em;
@@ -36,11 +37,13 @@ header {
     display: flex;
     justify-content: space-between;
 }
-.toss-section h3{
+
+.toss-section h3 {
     width: 76%;
     text-align: left;
 }
-.toss-section button{
+
+.toss-section button {
     width: 4em;
     padding: 2px;
     font-size: 1.3em;
@@ -49,6 +52,7 @@ header {
     background-color: green;
     color: white;
 }
+
 .container-for-game {
     display: flex;
     flex-wrap: wrap;
