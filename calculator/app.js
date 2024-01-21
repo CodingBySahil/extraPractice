@@ -22,6 +22,47 @@ let result=[],oprators=[],operands=[];
         operands.push(result[i])
       }
     }
+    let answer=[...operands];
+    for (let i = 0; i < operands.length; i++) {
+      Number(answer[i])
+      switch (oprators[i]) {
+        case "*":
+          answer[0] = answer[0] * answer[1];
+          answer.splice(1, 1);
+          break;
+        case "/":
+          answer[0] = answer[0] / answer[1];
+          answer.splice(1, 1);
+          break;
+        case "+":
+          // Number(answer[0])
+          // Number(answer[1])
+          answer[0] = answer[0] + answer[1];
+          answer.splice(1, 1);
+          break;
+        case "-":
+          answer[0] = answer[0] - answer[1];
+          answer.splice(1, 1);
+          break;
+      }
+    }
+
+    // let [answer] = operands;
+    // document.querySelector("#result").innerHTML = answer;
+    console.log(operands)
+    console.log(oprators)
+    console.log(answer)
+
+
+
+
+
+
+
+
+
+
+
   }
   
 
