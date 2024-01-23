@@ -182,8 +182,18 @@ function multiplyFun() {
 
 // Code for clear funtion
 function clearFun() {
-  for(let i =0;i<result.length;i++){
-    result.pop()
-  }
+  result=[];
   document.querySelector("#result").innerHTML = result
+}
+
+// Code for removing last value
+function removeLastValue() {
+  result.pop()
+  let result1= result;
+  result=[];
+  document.querySelector("#result").innerHTML = result
+  for(let i = 0;i<result1.length;i++){
+    document.querySelector("#result").innerHTML += result1[i]
+  }
+  result = result1
 }
