@@ -58,22 +58,32 @@ let result = [],
 // code for opration
 let lastAnswer;
 function equalCalculationFun() {
-  // for (let i = 0; i < result.length; i++) {
-    if (result[1] == "+") {
-      let firstValue = Number(result.shift());
-      result.shift();
-      let lastValue = Number(result.shift());
-      console.log(firstValue);
-      console.log(lastValue);
-      lastAnswer += firstValue + lastValue;
-      console.log(lastAnswer);
-      i = 1;
+  for (let i = 0; i < result.length; i++) {
+    i=1;
+    if (result[i] == "+") {
+      let firstValue = Number(result[i-1])
+      let lastValue = Number(result[i+1])
+      let sum = firstValue + lastValue;
+      lastAnswer = sum;
+      result.splice(0,3,sum)
     }
-  // }
-  alert(lastAnswer);
+    if (result[i] == "-") {
+      let firstValue = Number(result[i-1])
+      let lastValue = Number(result[i+1])
+      let minus = firstValue - lastValue;
+      lastAnswer = minus;
+      result.splice(0,3,minus)
+    }
+    if (result[i] == "*") {
+      let firstValue = Number(result[i-1])
+      let lastValue = Number(result[i+1])
+      let multiple = firstValue * lastValue;
+      lastAnswer = multiple;
+      result.splice(0,3,multiple)
+    }
+  }
+  document.querySelector("#result").innerHTML = lastAnswer
 }
-
-
 
 
 
@@ -168,4 +178,12 @@ function multiplyFun() {
   result.push(document.querySelector("#multiply").innerHTML);
   document.querySelector("#result").innerHTML += "*";
   // result.push("*")
+}
+
+// Code for clear funtion
+function clearFun() {
+  for(let i =0;i<result.length;i++){
+    result.pop()
+  }
+  document.querySelector("#result").innerHTML = result
 }
