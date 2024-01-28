@@ -209,21 +209,21 @@
 // your time with this, and check part of the solution if necessary.
 // 4. If yours is the right country, log a string like this: 'You should live in Portugal :)'. If 
 // not, log 'Portugal does not meet your criteria :('
-let myCountryName = "Pakistan",language = "Urdu",population = 231.4,island = false;
-if(language == "English" && population < 50 && island == false){
-    console.log(`Sarah should live in ${myCountryName}`)
-}else{
-    console.log(`${myCountryName} does not meet sarah criteria`)
-}
-// 5. Probably your country does not meet all the criteria. So go back and temporarily 
-// change some variables in order to make the condition true (unless you live in 
-// Canada :D)
-language = "English", population = 30;
-if(language == "English" && population < 50 && island == false){
-    console.log(`Sarah should live in ${myCountryName}`)
-}else{
-    console.log(`${myCountryName} does not meet sarah criteria`)
-}
+// let myCountryName = "Pakistan",language = "Urdu",population = 231.4,island = false;
+// if(language == "English" && population < 50 && island == false){
+//     console.log(`Sarah should live in ${myCountryName}`)
+// }else{
+//     console.log(`${myCountryName} does not meet sarah criteria`)
+// }
+// // 5. Probably your country does not meet all the criteria. So go back and temporarily 
+// // change some variables in order to make the condition true (unless you live in 
+// // Canada :D)
+// language = "English", population = 30;
+// if(language == "English" && population < 50 && island == false){
+//     console.log(`Sarah should live in ${myCountryName}`)
+// }else{
+//     console.log(`${myCountryName} does not meet sarah criteria`)
+// }
 
 
 
@@ -233,19 +233,58 @@ if(language == "English" && population < 50 && island == false){
 
 
 
-// The Complete JavaScript Course 8
-// LECTURE: The switch Statement
-// 1. Use a switch statement to log the following string for the given 'language':
-// chinese or mandarin: 'MOST number of native speakers!'
-// spanish: '2nd place in number of native speakers'
-// english: '3rd place'
-// hindi: 'Number 4'
-// arabic: '5th most spoken language'
-// for all other simply log 'Great language too :D'
-// LECTURE: The Conditional (Ternary) Operator
-// 1. If your country's population is greater than 33 million, use the ternary operator 
-// to log a string like this to the console: 'Portugal's population is above average'. 
-// Otherwise, simply log 'Portugal's population is below average'. Notice how only
-// one word changes between these two sentences!
-// 2. After checking the result, change the population temporarily to 13 and then to 
-// 130. See the different results, and set the population back to original
+// // The Complete JavaScript Course 8
+// // LECTURE: The switch Statement
+// // 1. Use a switch statement to log the following string for the given 'language':
+// // chinese or mandarin: 'MOST number of native speakers!'
+// // spanish: '2nd place in number of native speakers'
+// // english: '3rd place'
+// // hindi: 'Number 4'
+// // arabic: '5th most spoken language'
+// // for all other simply log 'Great language too :D'
+
+// let languages = prompt("Enter your lanuguage name");
+// switch(languages){
+//     case "chinese":{
+//         console.log("MOST number of native speakers!")
+//         break
+//     }
+//     case "mandarin":{
+//         console.log("MOST number of native speakers!")
+//         break
+//     }
+//     case "spanish":{
+//         console.log("2nd place in number of native speakers")
+//         break
+//     }
+//     case "English":{
+//         console.log("3rd place")
+//         break
+//     }
+//     case "hindi":{
+//         console.log("Number 4")
+//         break
+//     }
+//     case "arabic":{
+//         console.log("5th most spoken language")
+//         break
+//     }
+//     default:{
+//         console.log("Great language too")
+//     }
+// }
+// // LECTURE: The Conditional (Ternary) Operator
+// // 1. If your country's population is greater than 33 million, use the ternary operator 
+// // to log a string like this to the console: 'Portugal's population is above average'. 
+// // Otherwise, simply log 'Portugal's population is below average'. Notice how only
+// // one word changes between these two sentences!
+// let populationOfPak = 231.4
+// populationOfPak > 33 ? console.log(`Pakistan's population is above average`) : console.log(`Pakistan's population is below average`)
+// // 2. After checking the result, change the population temporarily to 13 and then to 
+// // 130. See the different results, and set the population back to original
+// populationOfPak = 13
+// populationOfPak > 33 ? console.log(`Pakistan's population is above average`) : console.log(`Pakistan's population is below average`)
+
+// populationOfPak = 130
+// populationOfPak > 33 ? console.log(`Pakistan's population is above average`) : console.log(`Pakistan's population is below average`)
+
