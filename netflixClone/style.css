@@ -6,6 +6,12 @@
 body{
     background-color: black;
 }
+/* draw section line */
+.section-line{
+    background-color:rgba(128, 128, 128, 0.28);
+    height: 7px;
+    width: 100vw;
+}
 .hero-section{
     background-image: url("assets/images/bgImageSignUpPage.jpg");
     height: 80vh;
