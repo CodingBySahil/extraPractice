@@ -11,10 +11,11 @@ body{
     background-color:rgba(128, 128, 128, 0.28);
     height: 7px;
     width: 100vw;
+    margin: 11vh 0px;
 }
 .hero-section{
     background-image: url("assets/images/bgImageSignUpPage.jpg");
-    height: 80vh;
+    height: 90vh;
     position: relative;
     background-position: center center;
     background-repeat: no-repeat;
@@ -22,7 +23,7 @@ body{
 .box{
     background-color: rgba(0, 0, 0, 0.7);
     width: 100%;
-    height: 80vh;
+    height: 90vh;
     z-index: 3;
     position: absolute;
 }
@@ -107,7 +108,7 @@ span:nth-child(3){
     border-radius: 5px;
     cursor: pointer;
     color: white;
-    background-color: rgba(0, 0, 0, 0.084);
+    background-color: #37373d8e;
     margin-right: 12px;
 }
 .email-and-btn button{
@@ -116,4 +117,45 @@ span:nth-child(3){
     font-weight: 500;
     width: auto;
     padding: 8px 16px;
+}
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80vw;
+    /* border: 1px solid red; */
+    margin: auto;
+}
+.section-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    text-align: center;
+    width: 50%;
+    /* border: 1px solid red; */
+}
+.section-text>:child{
+    font-size: 48px;
+    font-weight: 900;
+}
+.section-text>:nth-child(2){
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 16px;
+}
+.section-tv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    /* border: 1px solid red; */
+}
+.section-tv img{
+    position: relative;
+    z-index: 3;
+}
+.section-tv video{
+    position: absolute;
 }
