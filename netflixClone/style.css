@@ -1,4 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 * {
+  font-family: "Poppins", sans-serif;
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
@@ -69,8 +72,7 @@ body {
   align-items: center;
   flex-direction: column;
   height: calc(70vh - 123px);
-
-  /* background-color: greenyellow; */
+  margin-top: 5em;
 }
 .hero-section-text {
   display: flex;
@@ -96,10 +98,11 @@ span:nth-child(3) {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 1em;
+  margin-top: 2em;
 }
 .email-and-btn input[type="email"] {
   width: 60vh;
+  height: 56px;
   position: relative;
   z-index: 3;
   font-size: 16px;
@@ -117,6 +120,7 @@ span:nth-child(3) {
   line-height: 24px;
   font-weight: 500;
   width: auto;
+  height: 56px;
   padding: 8px 16px;
 }
 .section {
@@ -160,10 +164,10 @@ span:nth-child(3) {
   width: 100%;
 }
 .section-tv video {
-    position: absolute;
-    width: 75%;
-    top: 12vh;
-    left: 11vh;
+  position: absolute;
+  width: 75%;
+  top: 12vh;
+  left: 11vh;
 }
 .downloadingImg {
   position: absolute;
@@ -185,14 +189,13 @@ span:nth-child(3) {
   width: 3.5rem;
   background-image: url("assets/images/boxshot.png");
   margin: 0px 15px 0px 14px;
-  background-size:contain;
+  background-size: contain;
   background-repeat: no-repeat;
-
 }
 /* 2nd div */
-.downloadingImg > :nth-child(2){
-    width: 23vh;
-    margin-left: 24px;
+.downloadingImg > :nth-child(2) {
+  width: 23vh;
+  margin-left: 24px;
 }
 .downloadingImg > :nth-child(2) > div:nth-child(1) {
   font-size: 16px;
@@ -209,6 +212,74 @@ span:nth-child(3) {
   height: 10px;
   color: blue;
 }
- li{
-    color: white;
- }
+.faq-section {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2em;
+}
+.faq-section h1 {
+  font-size: 48px;
+  font-weight: 900;
+  text-align: center;
+  margin-bottom: 5vh;
+}
+.questions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 7px;
+}
+.questions button {
+  background-color: #2d2d2d;
+  color: #fff;
+  font-size: 28px;
+  font-weight: 400;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80vw;
+  height: 84px;
+  /* margin: 16px auto auto auto; */
+  padding: 24px;
+}
+.faq-sec-newslestner {
+  width: 80vw;
+  height: 102px;
+  /* margin: 1px 1px 1px 1px; */
+  margin-top: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.final-links {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  color: rgb(191, 190, 190);
+  width: 80vw;
+  margin: auto;
+  margin-bottom: 5em;
+}
+.links {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 9vw;
+}
+.flex {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.flex a,
+.questions a {
+  text-decoration: underline;
+  cursor: pointer;
+  margin: 0.4em;
+}
