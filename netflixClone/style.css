@@ -283,3 +283,18 @@ span:nth-child(3) {
   cursor: pointer;
   margin: 0.4em;
 }
+.location{
+  margin-top: 2em;
+  display: flex;
+  flex-direction: column;
+}
+.location button{
+  margin-bottom:2em ;
+}
+
+@media screen and (max-width: 1279px) {
+  .navbar{
+    max-width: calc(100%);
+    padding: 1px 1rem;
+  }
+}
