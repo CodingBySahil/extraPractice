@@ -10,10 +10,10 @@
 body {
   background-color: black;
 }
-/* .main-container{
+.main-container{
   margin: auto;
   width: 90vw;
-} */
+}
 /* draw section line */
 .section-line {
   background-color: rgba(128, 128, 128, 0.28);
@@ -135,7 +135,7 @@ span:nth-child(3) {
 }
 .section {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   max-width: 80vw;
   /* border: 1px solid red; */
@@ -183,7 +183,8 @@ span:nth-child(3) {
   position: absolute;
   bottom: 30px;
   z-index: 4;
-  width: 47vh;
+  /* width: 47vh; */
+  padding: 0px 1em 4px 0px;
   height: 14vh;
   border-radius: 12px;
   background-color: black;
@@ -295,56 +296,148 @@ span:nth-child(3) {
   margin: 0.4em;
   /* width: 12em; */
 }
-.questions a{
+.questions a {
   width: 12em;
 }
-.location{
+.location {
   margin-top: 1.4em;
   display: flex;
   flex-direction: column;
 }
-.location button{
-  margin-bottom:1.4em ;
+.location button {
+  margin-bottom: 1.4em;
 }
 
 @media screen and (max-width: 1279px) {
-  .navbar{
+  .navbar {
     max-width: calc(100%);
     padding: 1px 1rem;
   }
-  .section-text{
+  .section-text {
     align-items: flex-start;
   }
   span:nth-child(1) {
     font-size: 32px;
     font-weight: 700;
-    text-align: left;
+    /* text-align: left; */
   }
   .section-text > :nth-child(2) {
-    text-align: left;
+    /* text-align: left; */
     font-size: 18px;
+  }
+  h3 {
+    font-weight: 900;
+    text-align: center;
   }
 }
 @media screen and (max-width: 959px) {
-  .links{
+  .hero-section {
+    height: 60vh;
+  }
+  .box {
+    height: 60vh;
+  }
+  .newslestener {
+    height: auto;
+  }
+  .email-and-btn button {
+    font-size: 19px;
+  }
+
+  .links {
     grid-template-columns: 1fr 1fr;
     row-gap: 0;
   }
-  .flex a{
+  .flex a {
     margin-right: 9em;
   }
   span:nth-child(1) {
     font-size: 32px;
     font-weight: 700;
+    align-self: center;
   }
   span:nth-child(2) {
     font-size: 18px;
     font-weight: 400;
+    align-self: center;
   }
-  .section{
+  .section {
     flex-direction: column;
+    padding: 1.5em 0;
   }
   .section-text {
-  width: 90vw;
+    width: 90vw;
+  }
+  .section-tv,.section-tv vedio,.section-tv img {
+    width: 65vw;
+    height: 60vh;
+  }
+  .section-line {
+    margin: 3em 0;
+  }
+  .faq-section h1 {
+    font-size: 32px;
+  }
+  .questions button {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .navbar img {
+    margin-left: -1em;
+  }
+  .hero-section {
+    height: 74vh;
+    padding: 0 1em;
+  }
+  .box {
+    height: 74vh;
+    top: 0;
+    right: 0;
+  }
+  .email-and-btn {
+    flex-direction: column;
+    gap: 1em;
+  }
+  .email-and-btn input[type="email"] {
+    width: 20em;
+    font-size: 12px;
+    padding: 0;
+    padding-left: 8px;
+    height: 3em;
+  }
+  .email-and-btn button {
+    font-size: 12px;
+    width: fit-content;
+    height: 3em;
+    padding: 0 8px;
+  }
+  .questions button {
+    height: 3.5em;
+  }
+  #line {
+    margin: 5em 0 1em 0;
+  }
+  .section-tv,.section-tv video,.section-tv img  {
+    height: 40vh;
+    width: 60vw;
+  }
+  .section-tv video{
+    top: 0;
+    left: 0;
+  }
+  .final-links{
+    margin: 0;
+  }
+  .links{
+    gap: 0;
+  }
+  .flex{
+    width: 11em;
+  }
+}
+@media only screen and (min-width: 300px) and (max-width: 590) {
+  body{
+    background-color: red;
   }
 }
