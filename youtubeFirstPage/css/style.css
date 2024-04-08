@@ -1,31 +1,10 @@
-*{
-    /* border: 1px solid red; */
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
+/* ruboto font family */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+  /* border: 1px solid red; */
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
 
-#main-header{
-    height: 56px;
-    padding: 0 16px;
-    display: flexbox;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-}
-
-#top-right-icons {
-    font-size: 1em;
-}
-
-#top-right-icons i {
-    padding: 8px;
-    font-size: 2rem;
-}
-
-#top-right-icons p span{
-    display: inline-block;
-    font-weight: bolder;
-    color: #000000;
-}
