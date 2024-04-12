@@ -107,7 +107,13 @@
   background-color: rgba(0, 0, 0, 0.08);
 }
 
-.card img{
+.card img {
   width: 87%;
-    height: 37%;
+  height: 37%;
+}
+
+/* post container */
+.blank-row{
+  height: 6em;
+  background-color: #ffffff;
 }
