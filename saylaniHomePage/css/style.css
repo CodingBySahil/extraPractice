@@ -33,10 +33,10 @@
   margin-right: 2px;
   transition: 0.4s;
 }
-.text-saylani-green{
+.text-saylani-green {
   color: #8dc63f;
 }
-.text-saylani-blue{
+.text-saylani-blue {
   color: #0d6db7;
 }
 #donation {
@@ -65,8 +65,8 @@
   background-color: gray;
   border-radius: 50%;
 }
-.donateBtns{
-  color: rgba(0, 0, 0, .85);
+.donateBtns {
+  color: rgba(0, 0, 0, 0.85);
   background-color: white;
   font-weight: 600;
   word-break: break-word;
@@ -74,8 +74,34 @@
   border-radius: 6px;
   cursor: pointer;
 }
-.donateBtns:hover,.donateBtns:active{
+.donateBtns:hover,
+.donateBtns:active {
   color: white;
-  background-color: rgba(0, 0, 0, .85);  
+  background-color: rgba(0, 0, 0, 0.85);
 }
-
+#ramzanRashanImg {
+  border-radius: 4px;
+  height: 560px;
+  width: 100%;
+}
+.serviceBox {
+  background-color: #f0fcdb;
+  width: 100%;
+  height: 26vh;
+  border-radius: 10px;
+}
+.serviceText h5 {
+  font-size: 16px;
+  width: 100%;
+}
+.serviceBox:hover{
+  scale: 1.1;
+  transition: .4s;
+}
+/* .tranparent-box{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 1);
+  /* position: relative; */
+  z-index: 5;
+} */
