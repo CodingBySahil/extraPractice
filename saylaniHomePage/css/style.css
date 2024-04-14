@@ -1,34 +1,81 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-*{
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
-#whatsppNo{
-    font-weight: 300;
+#whatsppNo {
+  font-weight: 300;
 }
-#heroSection{
-    background-image: url('../images/heroImg.jpg');
-    background-position: bottom;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: block;
-    height: 100%;
-    opacity: 1;
-    width: 100%;
-    display: block;
-    
+#heroSection {
+  background-image: url("../images/heroImg.jpg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  height: 100%;
+  opacity: 1;
+  width: 100%;
+  display: block;
 }
-.overflow-hidden{
-    overflow: hidden !important;
+.overflow-hidden {
+  overflow: hidden !important;
 }
-#donation{
-    font-weight: 500;
-    color: #0d6db7;
-    font-size: 2em;
-    background-color: #f5f5f5c9;
-    padding: .5em 1.5em;
-    border-radius: 16px;
+.hover-green:hover {
+  text-decoration: underline #8dc63f;
+  transition: 0.3s;
 }
+.hover-scale:hover {
+  scale: 1.1;
+  margin-left: 2px;
+  margin-right: 2px;
+  transition: 0.4s;
+}
+.text-saylani-green{
+  color: #8dc63f;
+}
+.text-saylani-blue{
+  color: #0d6db7;
+}
+#donation {
+  font-weight: 500;
+  color: rgb(13, 109, 183);
+  font-size: 1.8rem;
+  background-color: #e6e9e8;
+  padding: 0.5em 1em;
+  border-radius: 16px;
+  cursor: pointer;
+}
+#donorDashboard {
+  width: fit-content !important;
+  border: 1px solid #8dc63f;
+  border-radius: 20px;
+  padding: 10px 20px;
+}
+#donorDashboard p {
+  margin: auto;
+  text-align: center;
+}
+#circle {
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  background-color: gray;
+  border-radius: 50%;
+}
+.donateBtns{
+  color: rgba(0, 0, 0, .85);
+  background-color: white;
+  font-weight: 600;
+  word-break: break-word;
+  padding: 0.95em 0.55em;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.donateBtns:hover,.donateBtns:active{
+  color: white;
+  background-color: rgba(0, 0, 0, .85);  
+}
+
