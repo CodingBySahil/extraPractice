@@ -172,7 +172,7 @@
 }
 
 @media screen {
-  #small-screen-position-problem{
+  /* #small-screen-position-problem{
     margin-top: 5em;
   }
   body{
@@ -180,5 +180,5 @@
   }
   *{
     border: 1px solid red;
-  }
+  } */
 }
